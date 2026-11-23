@@ -1,0 +1,4 @@
+<view class="container">
+  <text class="title">{{title}}</text>
+  <text>优惠券商城项目已初始化</text>
+</view>
