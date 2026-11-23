@@ -1,0 +1,7 @@
+{
+  "appid": "touristappid",
+  "projectname": "coupon-mall",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "setting": {"es6": true}
+}
