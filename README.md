@@ -1,2 +1,11 @@
-# coupon-mall
-Coupon Mall - 微信小程序项目
+# Coupon Mall
+
+优惠券商城微信小程序的初始项目。使用原生小程序组件，无需安装第三方依赖。首页显示项目名称和初始化提示。
+
+## 本地运行
+
+1. 在微信开发者工具中选择导入项目，目录选仓库根目录，项目类型选小程序。
+2. `project.config.json` 中的 `touristappid` 用于本地调试。如果工具要求选择 AppID，可以使用测试号或填写你的小程序 AppID。
+3. 点击编译。模拟器应显示 Coupon Mall 首页。
+
+正式上传前请配置你的小程序 AppID。不要把 AppSecret 提交到仓库。
