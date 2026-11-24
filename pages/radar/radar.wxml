@@ -1,0 +1,28 @@
+
+<view class="screen">
+  <view class="page-title">优惠雷达</view>
+  <view class="sub">搜索已接入渠道的商品与报价。</view>
+  <view class="card">
+    <view class="row"><input class="field grow" value="{{q}}" data-key="q" placeholder="商品、规格或店铺" maxlength="100" bindinput="field" bindconfirm="search" confirm-type="search"/><button class="dark" bindtap="search">搜索</button></view>
+    <view class="row wrap filters">
+      <picker mode="selector" range="{{platforms}}" value="{{platformIndex}}" data-key="platform" bindchange="filter"><view class="pill">{{platforms[platformIndex]}} ▾</view></picker>
+      <picker mode="selector" range="{{categories}}" value="{{categoryIndex}}" data-key="category" bindchange="filter"><view class="pill">{{categories[categoryIndex]}} ▾</view></picker>
+      <button class="pill pill-button" bindtap="filters">标价筛选 {{filtersOpen ? '−' : '+'}}</button>
+    </view>
+    <view wx:if="{{filtersOpen}}" class="row filters">
+      <input class="field grow" type="digit" placeholder="最低价（元）" data-key="min" value="{{min}}" bindinput="field"/>
+      <input class="field grow" type="digit" placeholder="最高价（元）" data-key="max" value="{{max}}" bindinput="field"/>
+      <button class="plain" bindtap="search">应用</button>
+    </view>
+  </view>
+  <view wx:if="{{demo}}" class="notice">当前为联调模式，列表里的商品和报价均为合成样例。</view>
+  <view wx:if="{{error}}" class="notice error">{{error}}<button class="plain" bindtap="search">重新加载</button></view>
+  <offer-card wx:for="{{items}}" wx:key="id" offer="{{item}}" bind:select="open"/>
+  <view wx:if="{{loading}}" class="card muted">正在读取报价…</view>
+  <view wx:elif="{{!items.length && !error}}" class="card empty">
+    <view class="section-title">{{active ? '未找到符合条件的报价' : '暂无接入渠道报价'}}</view>
+    <view class="sub">{{active ? '试试缩短关键词或调整筛选条件。' : '你仍可用截图整理优惠条件。'}}</view>
+    <button wx:if="{{!active}}" class="plain" bindtap="recognize">打开截图整理 ›</button>
+  </view>
+  <button wx:if="{{cursor && !loading}}" class="plain" bindtap="more">加载更多</button>
+</view>

@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "0",
+    "category": "clear",
+    "image": "000-clear.png",
+    "truth": {
+      "discount": "10",
+      "threshold": "100",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "1",
+    "category": "clear",
+    "image": "001-clear.png",
+    "truth": {
+      "discount": "11",
+      "threshold": "101",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "2",
+    "category": "clear",
+    "image": "002-clear.png",
+    "truth": {
+      "discount": "12",
+      "threshold": "102",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "3",
+    "category": "clear",
+    "image": "003-clear.png",
+    "truth": {
+      "discount": "13",
+      "threshold": "103",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "4",
+    "category": "clear",
+    "image": "004-clear.png",
+    "truth": {
+      "discount": "14",
+      "threshold": "104",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "5",
+    "category": "clear",
+    "image": "005-clear.png",
+    "truth": {
+      "discount": "15",
+      "threshold": "105",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "6",
+    "category": "clear",
+    "image": "006-clear.png",
+    "truth": {
+      "discount": "16",
+      "threshold": "106",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "7",
+    "category": "clear",
+    "image": "007-clear.png",
+    "truth": {
+      "discount": "17",
+      "threshold": "107",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "8",
+    "category": "clear",
+    "image": "008-clear.png",
+    "truth": {
+      "discount": "18",
+      "threshold": "108",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "9",
+    "category": "clear",
+    "image": "009-clear.png",
+    "truth": {
+      "discount": "19",
+      "threshold": "109",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "10",
+    "category": "clear",
+    "image": "010-clear.png",
+    "truth": {
+      "discount": "20",
+      "threshold": "110",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "11",
+    "category": "clear",
+    "image": "011-clear.png",
+    "truth": {
+      "discount": "21",
+      "threshold": "111",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "12",
+    "category": "clear",
+    "image": "012-clear.png",
+    "truth": {
+      "discount": "22",
+      "threshold": "112",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "13",
+    "category": "clear",
+    "image": "013-clear.png",
+    "truth": {
+      "discount": "23",
+      "threshold": "113",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "14",
+    "category": "clear",
+    "image": "014-clear.png",
+    "truth": {
+      "discount": "24",
+      "threshold": "114",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "15",
+    "category": "clear",
+    "image": "015-clear.png",
+    "truth": {
+      "discount": "25",
+      "threshold": "115",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "16",
+    "category": "clear",
+    "image": "016-clear.png",
+    "truth": {
+      "discount": "26",
+      "threshold": "116",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "17",
+    "category": "clear",
+    "image": "017-clear.png",
+    "truth": {
+      "discount": "27",
+      "threshold": "117",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "18",
+    "category": "clear",
+    "image": "018-clear.png",
+    "truth": {
+      "discount": "28",
+      "threshold": "118",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "19",
+    "category": "clear",
+    "image": "019-clear.png",
+    "truth": {
+      "discount": "29",
+      "threshold": "119",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "20",
+    "category": "clear",
+    "image": "020-clear.png",
+    "truth": {
+      "discount": "30",
+      "threshold": "120",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "21",
+    "category": "clear",
+    "image": "021-clear.png",
+    "truth": {
+      "discount": "31",
+      "threshold": "121",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "22",
+    "category": "clear",
+    "image": "022-clear.png",
+    "truth": {
+      "discount": "32",
+      "threshold": "122",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "23",
+    "category": "clear",
+    "image": "023-clear.png",
+    "truth": {
+      "discount": "33",
+      "threshold": "123",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "24",
+    "category": "clear",
+    "image": "024-clear.png",
+    "truth": {
+      "discount": "34",
+      "threshold": "124",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "25",
+    "category": "clear",
+    "image": "025-clear.png",
+    "truth": {
+      "discount": "10",
+      "threshold": "125",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "26",
+    "category": "clear",
+    "image": "026-clear.png",
+    "truth": {
+      "discount": "11",
+      "threshold": "126",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "27",
+    "category": "clear",
+    "image": "027-clear.png",
+    "truth": {
+      "discount": "12",
+      "threshold": "127",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "28",
+    "category": "clear",
+    "image": "028-clear.png",
+    "truth": {
+      "discount": "13",
+      "threshold": "128",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "29",
+    "category": "clear",
+    "image": "029-clear.png",
+    "truth": {
+      "discount": "14",
+      "threshold": "129",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "30",
+    "category": "clear",
+    "image": "030-clear.png",
+    "truth": {
+      "discount": "15",
+      "threshold": "130",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "31",
+    "category": "clear",
+    "image": "031-clear.png",
+    "truth": {
+      "discount": "16",
+      "threshold": "131",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "32",
+    "category": "clear",
+    "image": "032-clear.png",
+    "truth": {
+      "discount": "17",
+      "threshold": "132",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "33",
+    "category": "clear",
+    "image": "033-clear.png",
+    "truth": {
+      "discount": "18",
+      "threshold": "133",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "34",
+    "category": "clear",
+    "image": "034-clear.png",
+    "truth": {
+      "discount": "19",
+      "threshold": "134",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "35",
+    "category": "clear",
+    "image": "035-clear.png",
+    "truth": {
+      "discount": "20",
+      "threshold": "135",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "36",
+    "category": "clear",
+    "image": "036-clear.png",
+    "truth": {
+      "discount": "21",
+      "threshold": "136",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "37",
+    "category": "clear",
+    "image": "037-clear.png",
+    "truth": {
+      "discount": "22",
+      "threshold": "137",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "38",
+    "category": "clear",
+    "image": "038-clear.png",
+    "truth": {
+      "discount": "23",
+      "threshold": "138",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "39",
+    "category": "clear",
+    "image": "039-clear.png",
+    "truth": {
+      "discount": "24",
+      "threshold": "139",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "40",
+    "category": "clear",
+    "image": "040-clear.png",
+    "truth": {
+      "discount": "25",
+      "threshold": "140",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "41",
+    "category": "clear",
+    "image": "041-clear.png",
+    "truth": {
+      "discount": "26",
+      "threshold": "141",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "42",
+    "category": "clear",
+    "image": "042-clear.png",
+    "truth": {
+      "discount": "27",
+      "threshold": "142",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "43",
+    "category": "clear",
+    "image": "043-clear.png",
+    "truth": {
+      "discount": "28",
+      "threshold": "143",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "44",
+    "category": "clear",
+    "image": "044-clear.png",
+    "truth": {
+      "discount": "29",
+      "threshold": "144",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "45",
+    "category": "clear",
+    "image": "045-clear.png",
+    "truth": {
+      "discount": "30",
+      "threshold": "145",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "46",
+    "category": "clear",
+    "image": "046-clear.png",
+    "truth": {
+      "discount": "31",
+      "threshold": "146",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "47",
+    "category": "clear",
+    "image": "047-clear.png",
+    "truth": {
+      "discount": "32",
+      "threshold": "147",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "48",
+    "category": "clear",
+    "image": "048-clear.png",
+    "truth": {
+      "discount": "33",
+      "threshold": "148",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "49",
+    "category": "clear",
+    "image": "049-clear.png",
+    "truth": {
+      "discount": "34",
+      "threshold": "149",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "50",
+    "category": "blurred",
+    "image": "050-blurred.png",
+    "truth": {
+      "discount": "10",
+      "threshold": "150",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "51",
+    "category": "blurred",
+    "image": "051-blurred.png",
+    "truth": {
+      "discount": "11",
+      "threshold": "151",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "52",
+    "category": "blurred",
+    "image": "052-blurred.png",
+    "truth": {
+      "discount": "12",
+      "threshold": "152",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "53",
+    "category": "blurred",
+    "image": "053-blurred.png",
+    "truth": {
+      "discount": "13",
+      "threshold": "153",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "54",
+    "category": "blurred",
+    "image": "054-blurred.png",
+    "truth": {
+      "discount": "14",
+      "threshold": "154",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "55",
+    "category": "blurred",
+    "image": "055-blurred.png",
+    "truth": {
+      "discount": "15",
+      "threshold": "155",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "56",
+    "category": "blurred",
+    "image": "056-blurred.png",
+    "truth": {
+      "discount": "16",
+      "threshold": "156",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "57",
+    "category": "blurred",
+    "image": "057-blurred.png",
+    "truth": {
+      "discount": "17",
+      "threshold": "157",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "58",
+    "category": "blurred",
+    "image": "058-blurred.png",
+    "truth": {
+      "discount": "18",
+      "threshold": "158",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "59",
+    "category": "blurred",
+    "image": "059-blurred.png",
+    "truth": {
+      "discount": "19",
+      "threshold": "159",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "60",
+    "category": "blurred",
+    "image": "060-blurred.png",
+    "truth": {
+      "discount": "20",
+      "threshold": "160",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "61",
+    "category": "blurred",
+    "image": "061-blurred.png",
+    "truth": {
+      "discount": "21",
+      "threshold": "161",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "62",
+    "category": "blurred",
+    "image": "062-blurred.png",
+    "truth": {
+      "discount": "22",
+      "threshold": "162",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "63",
+    "category": "blurred",
+    "image": "063-blurred.png",
+    "truth": {
+      "discount": "23",
+      "threshold": "163",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "64",
+    "category": "blurred",
+    "image": "064-blurred.png",
+    "truth": {
+      "discount": "24",
+      "threshold": "164",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "65",
+    "category": "blurred",
+    "image": "065-blurred.png",
+    "truth": {
+      "discount": "25",
+      "threshold": "165",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "66",
+    "category": "blurred",
+    "image": "066-blurred.png",
+    "truth": {
+      "discount": "26",
+      "threshold": "166",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "67",
+    "category": "blurred",
+    "image": "067-blurred.png",
+    "truth": {
+      "discount": "27",
+      "threshold": "167",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "68",
+    "category": "blurred",
+    "image": "068-blurred.png",
+    "truth": {
+      "discount": "28",
+      "threshold": "168",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "69",
+    "category": "blurred",
+    "image": "069-blurred.png",
+    "truth": {
+      "discount": "29",
+      "threshold": "169",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "70",
+    "category": "blurred",
+    "image": "070-blurred.png",
+    "truth": {
+      "discount": "30",
+      "threshold": "170",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "71",
+    "category": "blurred",
+    "image": "071-blurred.png",
+    "truth": {
+      "discount": "31",
+      "threshold": "171",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "72",
+    "category": "blurred",
+    "image": "072-blurred.png",
+    "truth": {
+      "discount": "32",
+      "threshold": "172",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "73",
+    "category": "blurred",
+    "image": "073-blurred.png",
+    "truth": {
+      "discount": "33",
+      "threshold": "173",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "74",
+    "category": "blurred",
+    "image": "074-blurred.png",
+    "truth": {
+      "discount": "34",
+      "threshold": "174",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "75",
+    "category": "blurred",
+    "image": "075-blurred.png",
+    "truth": {
+      "discount": "10",
+      "threshold": "175",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "76",
+    "category": "blurred",
+    "image": "076-blurred.png",
+    "truth": {
+      "discount": "11",
+      "threshold": "176",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "77",
+    "category": "blurred",
+    "image": "077-blurred.png",
+    "truth": {
+      "discount": "12",
+      "threshold": "177",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "78",
+    "category": "blurred",
+    "image": "078-blurred.png",
+    "truth": {
+      "discount": "13",
+      "threshold": "178",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "79",
+    "category": "blurred",
+    "image": "079-blurred.png",
+    "truth": {
+      "discount": "14",
+      "threshold": "179",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "80",
+    "category": "long",
+    "image": "080-long.png",
+    "truth": {
+      "discount": "15",
+      "threshold": "180",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "81",
+    "category": "long",
+    "image": "081-long.png",
+    "truth": {
+      "discount": "16",
+      "threshold": "181",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "82",
+    "category": "long",
+    "image": "082-long.png",
+    "truth": {
+      "discount": "17",
+      "threshold": "182",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "83",
+    "category": "long",
+    "image": "083-long.png",
+    "truth": {
+      "discount": "18",
+      "threshold": "183",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "84",
+    "category": "long",
+    "image": "084-long.png",
+    "truth": {
+      "discount": "19",
+      "threshold": "184",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "85",
+    "category": "long",
+    "image": "085-long.png",
+    "truth": {
+      "discount": "20",
+      "threshold": "185",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "86",
+    "category": "long",
+    "image": "086-long.png",
+    "truth": {
+      "discount": "21",
+      "threshold": "186",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "87",
+    "category": "long",
+    "image": "087-long.png",
+    "truth": {
+      "discount": "22",
+      "threshold": "187",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "88",
+    "category": "long",
+    "image": "088-long.png",
+    "truth": {
+      "discount": "23",
+      "threshold": "188",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "89",
+    "category": "long",
+    "image": "089-long.png",
+    "truth": {
+      "discount": "24",
+      "threshold": "189",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "90",
+    "category": "long",
+    "image": "090-long.png",
+    "truth": {
+      "discount": "25",
+      "threshold": "190",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "91",
+    "category": "long",
+    "image": "091-long.png",
+    "truth": {
+      "discount": "26",
+      "threshold": "191",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "92",
+    "category": "long",
+    "image": "092-long.png",
+    "truth": {
+      "discount": "27",
+      "threshold": "192",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "93",
+    "category": "long",
+    "image": "093-long.png",
+    "truth": {
+      "discount": "28",
+      "threshold": "193",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "94",
+    "category": "long",
+    "image": "094-long.png",
+    "truth": {
+      "discount": "29",
+      "threshold": "194",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "95",
+    "category": "long",
+    "image": "095-long.png",
+    "truth": {
+      "discount": "30",
+      "threshold": "195",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "96",
+    "category": "long",
+    "image": "096-long.png",
+    "truth": {
+      "discount": "31",
+      "threshold": "196",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "97",
+    "category": "long",
+    "image": "097-long.png",
+    "truth": {
+      "discount": "32",
+      "threshold": "197",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "98",
+    "category": "long",
+    "image": "098-long.png",
+    "truth": {
+      "discount": "33",
+      "threshold": "198",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "99",
+    "category": "long",
+    "image": "099-long.png",
+    "truth": {
+      "discount": "34",
+      "threshold": "199",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "100",
+    "category": "long",
+    "image": "100-long.png",
+    "truth": {
+      "discount": "10",
+      "threshold": "200",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "101",
+    "category": "long",
+    "image": "101-long.png",
+    "truth": {
+      "discount": "11",
+      "threshold": "201",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "102",
+    "category": "long",
+    "image": "102-long.png",
+    "truth": {
+      "discount": "12",
+      "threshold": "202",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "103",
+    "category": "long",
+    "image": "103-long.png",
+    "truth": {
+      "discount": "13",
+      "threshold": "203",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "104",
+    "category": "long",
+    "image": "104-long.png",
+    "truth": {
+      "discount": "14",
+      "threshold": "204",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "105",
+    "category": "long",
+    "image": "105-long.png",
+    "truth": {
+      "discount": "15",
+      "threshold": "205",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "106",
+    "category": "long",
+    "image": "106-long.png",
+    "truth": {
+      "discount": "16",
+      "threshold": "206",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "107",
+    "category": "long",
+    "image": "107-long.png",
+    "truth": {
+      "discount": "17",
+      "threshold": "207",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "108",
+    "category": "long",
+    "image": "108-long.png",
+    "truth": {
+      "discount": "18",
+      "threshold": "208",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "109",
+    "category": "long",
+    "image": "109-long.png",
+    "truth": {
+      "discount": "19",
+      "threshold": "209",
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "110",
+    "category": "relative",
+    "image": "110-relative.png",
+    "truth": {
+      "discount": "20",
+      "threshold": "210",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "111",
+    "category": "relative",
+    "image": "111-relative.png",
+    "truth": {
+      "discount": "21",
+      "threshold": "211",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "112",
+    "category": "relative",
+    "image": "112-relative.png",
+    "truth": {
+      "discount": "22",
+      "threshold": "212",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "113",
+    "category": "relative",
+    "image": "113-relative.png",
+    "truth": {
+      "discount": "23",
+      "threshold": "213",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "114",
+    "category": "relative",
+    "image": "114-relative.png",
+    "truth": {
+      "discount": "24",
+      "threshold": "214",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "115",
+    "category": "relative",
+    "image": "115-relative.png",
+    "truth": {
+      "discount": "25",
+      "threshold": "215",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "116",
+    "category": "relative",
+    "image": "116-relative.png",
+    "truth": {
+      "discount": "26",
+      "threshold": "216",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "117",
+    "category": "relative",
+    "image": "117-relative.png",
+    "truth": {
+      "discount": "27",
+      "threshold": "217",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "118",
+    "category": "relative",
+    "image": "118-relative.png",
+    "truth": {
+      "discount": "28",
+      "threshold": "218",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "119",
+    "category": "relative",
+    "image": "119-relative.png",
+    "truth": {
+      "discount": "29",
+      "threshold": "219",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "120",
+    "category": "relative",
+    "image": "120-relative.png",
+    "truth": {
+      "discount": "30",
+      "threshold": "220",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "121",
+    "category": "relative",
+    "image": "121-relative.png",
+    "truth": {
+      "discount": "31",
+      "threshold": "221",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "122",
+    "category": "relative",
+    "image": "122-relative.png",
+    "truth": {
+      "discount": "32",
+      "threshold": "222",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "123",
+    "category": "relative",
+    "image": "123-relative.png",
+    "truth": {
+      "discount": "33",
+      "threshold": "223",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "124",
+    "category": "relative",
+    "image": "124-relative.png",
+    "truth": {
+      "discount": "34",
+      "threshold": "224",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "125",
+    "category": "relative",
+    "image": "125-relative.png",
+    "truth": {
+      "discount": "10",
+      "threshold": "225",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "126",
+    "category": "relative",
+    "image": "126-relative.png",
+    "truth": {
+      "discount": "11",
+      "threshold": "226",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "127",
+    "category": "relative",
+    "image": "127-relative.png",
+    "truth": {
+      "discount": "12",
+      "threshold": "227",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "128",
+    "category": "relative",
+    "image": "128-relative.png",
+    "truth": {
+      "discount": "13",
+      "threshold": "228",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "129",
+    "category": "relative",
+    "image": "129-relative.png",
+    "truth": {
+      "discount": "14",
+      "threshold": "229",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "130",
+    "category": "relative",
+    "image": "130-relative.png",
+    "truth": {
+      "discount": "15",
+      "threshold": "230",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "131",
+    "category": "relative",
+    "image": "131-relative.png",
+    "truth": {
+      "discount": "16",
+      "threshold": "231",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "132",
+    "category": "relative",
+    "image": "132-relative.png",
+    "truth": {
+      "discount": "17",
+      "threshold": "232",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "133",
+    "category": "relative",
+    "image": "133-relative.png",
+    "truth": {
+      "discount": "18",
+      "threshold": "233",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "134",
+    "category": "relative",
+    "image": "134-relative.png",
+    "truth": {
+      "discount": "19",
+      "threshold": "234",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "135",
+    "category": "relative",
+    "image": "135-relative.png",
+    "truth": {
+      "discount": "20",
+      "threshold": "235",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "136",
+    "category": "relative",
+    "image": "136-relative.png",
+    "truth": {
+      "discount": "21",
+      "threshold": "236",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "137",
+    "category": "relative",
+    "image": "137-relative.png",
+    "truth": {
+      "discount": "22",
+      "threshold": "237",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "138",
+    "category": "relative",
+    "image": "138-relative.png",
+    "truth": {
+      "discount": "23",
+      "threshold": "238",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "139",
+    "category": "relative",
+    "image": "139-relative.png",
+    "truth": {
+      "discount": "24",
+      "threshold": "239",
+      "period": "今晚",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "140",
+    "category": "complex",
+    "image": "140-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "141",
+    "category": "complex",
+    "image": "141-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "142",
+    "category": "complex",
+    "image": "142-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "143",
+    "category": "complex",
+    "image": "143-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "144",
+    "category": "complex",
+    "image": "144-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "145",
+    "category": "complex",
+    "image": "145-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "146",
+    "category": "complex",
+    "image": "146-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "147",
+    "category": "complex",
+    "image": "147-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "148",
+    "category": "complex",
+    "image": "148-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "149",
+    "category": "complex",
+    "image": "149-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "150",
+    "category": "complex",
+    "image": "150-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "151",
+    "category": "complex",
+    "image": "151-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "152",
+    "category": "complex",
+    "image": "152-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "153",
+    "category": "complex",
+    "image": "153-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "154",
+    "category": "complex",
+    "image": "154-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "155",
+    "category": "complex",
+    "image": "155-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "156",
+    "category": "complex",
+    "image": "156-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "157",
+    "category": "complex",
+    "image": "157-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "158",
+    "category": "complex",
+    "image": "158-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "159",
+    "category": "complex",
+    "image": "159-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "160",
+    "category": "complex",
+    "image": "160-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "161",
+    "category": "complex",
+    "image": "161-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "162",
+    "category": "complex",
+    "image": "162-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "163",
+    "category": "complex",
+    "image": "163-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "164",
+    "category": "complex",
+    "image": "164-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "165",
+    "category": "complex",
+    "image": "165-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "166",
+    "category": "complex",
+    "image": "166-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "167",
+    "category": "complex",
+    "image": "167-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "168",
+    "category": "complex",
+    "image": "168-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "169",
+    "category": "complex",
+    "image": "169-complex.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": "2026年12月31日",
+      "scope": "指定店铺"
+    }
+  },
+  {
+    "id": "170",
+    "category": "no_coupon",
+    "image": "170-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "171",
+    "category": "no_coupon",
+    "image": "171-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "172",
+    "category": "no_coupon",
+    "image": "172-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "173",
+    "category": "no_coupon",
+    "image": "173-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "174",
+    "category": "no_coupon",
+    "image": "174-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "175",
+    "category": "no_coupon",
+    "image": "175-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "176",
+    "category": "no_coupon",
+    "image": "176-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "177",
+    "category": "no_coupon",
+    "image": "177-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "178",
+    "category": "no_coupon",
+    "image": "178-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "179",
+    "category": "no_coupon",
+    "image": "179-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "180",
+    "category": "no_coupon",
+    "image": "180-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "181",
+    "category": "no_coupon",
+    "image": "181-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "182",
+    "category": "no_coupon",
+    "image": "182-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "183",
+    "category": "no_coupon",
+    "image": "183-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "184",
+    "category": "no_coupon",
+    "image": "184-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "185",
+    "category": "no_coupon",
+    "image": "185-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "186",
+    "category": "no_coupon",
+    "image": "186-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "187",
+    "category": "no_coupon",
+    "image": "187-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "188",
+    "category": "no_coupon",
+    "image": "188-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "189",
+    "category": "no_coupon",
+    "image": "189-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "190",
+    "category": "no_coupon",
+    "image": "190-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "191",
+    "category": "no_coupon",
+    "image": "191-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "192",
+    "category": "no_coupon",
+    "image": "192-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "193",
+    "category": "no_coupon",
+    "image": "193-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "194",
+    "category": "no_coupon",
+    "image": "194-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "195",
+    "category": "no_coupon",
+    "image": "195-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "196",
+    "category": "no_coupon",
+    "image": "196-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "197",
+    "category": "no_coupon",
+    "image": "197-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "198",
+    "category": "no_coupon",
+    "image": "198-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  },
+  {
+    "id": "199",
+    "category": "no_coupon",
+    "image": "199-no_coupon.png",
+    "truth": {
+      "discount": null,
+      "threshold": null,
+      "period": null,
+      "scope": null
+    }
+  }
+]

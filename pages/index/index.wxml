@@ -1,4 +1,38 @@
-<view class="container">
-  <text class="title">{{title}}</text>
-  <text>优惠券商城项目已初始化</text>
+
+<view class="screen landing">
+  <view class="hero">
+    <view class="hero-copy">
+      <view class="hero-label">AI 找优惠</view>
+      <view class="hero-title"><view>优惠券条件</view><view>一眼看清</view></view>
+      <view class="hero-note">上传商品或优惠券截图，整理券额、门槛和有效期。</view>
+    </view>
+    <view class="orbit orbit-one" aria-hidden="true"></view>
+    <view class="orbit orbit-two" aria-hidden="true"></view>
+    <view class="ticket" aria-hidden="true">
+      <view class="ticket-dot"></view><view class="ticket-symbol">¥</view>
+      <view class="ticket-lines"></view><view class="ticket-dash"></view>
+    </view>
+    <button class="hero-button" bindtap="recognize"><text class="scan">▣</text> 上传截图 <text>↗</text></button>
+  </view>
+  <view class="lookup">
+    <view class="row between"><text class="section-title">查商品</text><button class="plain paste" bindtap="paste">粘贴</button></view>
+    <view class="lookup-row">
+      <input class="field grow" placeholder="商品链接或关键词" value="{{text}}" bindinput="input" bindconfirm="resolve" maxlength="3000" confirm-type="search"/>
+      <button class="dark" loading="{{resolving}}" disabled="{{resolving}}" bindtap="resolve">查询</button>
+    </view>
+    <view wx:if="{{linkError}}" class="notice error">{{linkError}}</view>
+  </view>
+  <view class="row between head-row"><text class="section-title">优惠雷达</text><button class="plain" bindtap="radar">查看全部 ›</button></view>
+  <view wx:if="{{loading}}" class="card muted">正在读取渠道状态…</view>
+  <view wx:elif="{{error}}" class="card">
+    <view class="muted">{{error}}</view><button class="plain" bindtap="load">重新加载</button>
+  </view>
+  <block wx:else>
+    <view wx:for="{{sources}}" wx:key="id" class="source-line">
+      <view class="source-dot {{item.state === 'DISABLED' ? 'off' : ''}}"></view>
+      <text>{{item.state === 'DEMO' ? '当前展示合成样例' : (item.state === 'AVAILABLE' ? item.label : '当前可使用截图整理')}}</text>
+    </view>
+    <offer-card wx:for="{{offers}}" wx:key="id" offer="{{item}}" bind:select="open"/>
+    <view wx:if="{{!offers.length}}" class="card muted">暂无可展示报价。截图整理功能可独立使用。</view>
+  </block>
 </view>

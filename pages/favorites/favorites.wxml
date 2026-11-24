@@ -1,0 +1,18 @@
+
+<view class="screen">
+  <view class="page-title">我的收藏</view>
+  <view class="sub">回看关注商品的报价与失效状态。</view>
+  <view wx:if="{{error}}" class="notice error">{{error}}</view>
+  <view wx:if="{{!loggedIn}}" class="card empty stack">
+    <view class="section-title">登录后同步收藏</view>
+    <button class="primary" bindtap="login" loading="{{signingIn}}" disabled="{{signingIn}}">登录</button>
+  </view>
+  <view wx:elif="{{loading}}" class="card muted">正在加载收藏…</view>
+  <view wx:elif="{{!items.length && !error}}" class="card empty">
+    <view class="section-title">还没有收藏</view><button class="plain" bindtap="radar">去优惠雷达 ›</button>
+  </view>
+  <view wx:for="{{items}}" wx:key="id">
+    <offer-card offer="{{item}}" bind:select="open"/>
+    <button class="plain remove" data-id="{{item.id}}" bindtap="remove">取消收藏</button>
+  </view>
+</view>

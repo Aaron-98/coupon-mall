@@ -1,0 +1,14 @@
+
+<view class="offer" bindtap="select" role="button" aria-label="{{offer.name}}">
+  <view class="mark {{offer.categoryClass}}">{{offer.categoryMark}}</view>
+  <view class="body">
+    <view class="name">{{offer.name}}</view>
+    <view class="meta">{{offer.skuLabel}} · {{offer.shop || '报价暂不可用'}}</view>
+    <view wx:if="{{offer.stateLabel || offer.missingLabel}}" class="status">{{offer.stateLabel || offer.missingLabel}}</view>
+    <view wx:if="{{offer.timeLabel}}" class="meta">{{offer.platform}} · {{offer.timeLabel}} 更新</view>
+  </view>
+  <view wx:if="{{offer.available !== false}}" class="quote">
+    <view class="amount">{{offer.amount}}</view>
+    <view class="meta">{{offer.amountLabel}}</view>
+  </view>
+</view>

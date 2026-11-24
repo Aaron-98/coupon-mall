@@ -1,0 +1,13 @@
+{
+  "users": 50,
+  "durationSeconds": 900.0900524,
+  "mode": "synthetic demo; text tasks; local Windows OCR benchmark reported separately",
+  "listRequests": 44600,
+  "listP95Ms": 16.394700000062585,
+  "acceptedTasks": 750,
+  "taskSuccessRate": 1,
+  "taskP95Ms": 165.75580000004265,
+  "errorCount": 0,
+  "errors": [],
+  "pass": true
+}

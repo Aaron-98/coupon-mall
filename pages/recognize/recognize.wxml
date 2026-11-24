@@ -1,0 +1,49 @@
+
+<view class="screen">
+  <view class="page-title">{{task ? '识别结果' : 'AI 找优惠'}}</view>
+  <view class="sub">整理优惠字段，识别结果仅保存在你的记录中。</view>
+  <view wx:if="{{!task}}" class="card stack">
+    <view class="actions mode-row">
+      <button class="{{mode === 'image' ? 'primary' : 'secondary'}}" data-mode="image" bindtap="mode">图片</button>
+      <button class="{{mode === 'text' ? 'primary' : 'secondary'}}" data-mode="text" bindtap="mode">文字</button>
+    </view>
+    <block wx:if="{{mode === 'image'}}">
+      <image wx:if="{{path}}" src="{{path}}" class="preview" mode="aspectFit"/>
+      <button class="upload-box" bindtap="choose"><text class="plus">＋</text><text>{{path ? '更换图片' : '选择一张截图'}}</text></button>
+      <view class="muted">JPEG、PNG 或 WebP，单张不超过 10 MB。请先遮盖个人信息。</view>
+    </block>
+    <textarea wx:else class="area" placeholder="例如：满 100 减 20 元，今晚截止" value="{{text}}" bindinput="input" maxlength="3000"/>
+    <button class="primary" bindtap="submit" loading="{{busy}}" disabled="{{busy}}">开始识别</button>
+  </view>
+  <view wx:if="{{error}}" class="notice error">{{error}}<button wx:if="{{task && !busy}}" class="plain" bindtap="refresh">刷新记录</button></view>
+  <view wx:if="{{task}}" class="card stack">
+    <view class="row between"><text class="section-title">{{statusLabel}}</text><text class="badge">私有记录</text></view>
+    <view wx:if="{{task.status === 'CREATED' || task.status === 'PROCESSING'}}" class="muted">可以先离开，在「我的」里继续查看。</view>
+    <block wx:if="{{task.error}}">
+      <view class="muted">{{task.error}}</view>
+      <button wx:if="{{task.attempt < 3}}" class="secondary" loading="{{busy}}" disabled="{{busy}}" bindtap="retry">重试识别</button>
+    </block>
+    <view wx:if="{{task.status === 'COMPLETED' && missingLabel}}" class="notice">待补充：{{missingLabel}}</view>
+    <view wx:if="{{imageError}}" class="muted">{{imageError}}</view>
+    <view wx:if="{{evidence}}" class="evidence">
+      <image src="{{evidence}}" class="original" mode="widthFix"/>
+      <view wx:if="{{boxStyle}}" class="highlight" style="{{boxStyle}}"></view>
+    </view>
+  </view>
+  <view wx:if="{{task && fields.length}}" class="card">
+    <view class="section-title">核对优惠条件</view>
+    <view class="muted">截图与文字记录无法确认优惠仍可领取。</view>
+    <view wx:for="{{fields}}" wx:key="name">
+      <view class="row between label"><text>{{item.label}}</text><text class="badge caution">{{item.stateLabel}}</text></view>
+      <input class="field" data-name="{{item.name}}" value="{{form[item.name]}}" placeholder="待确认" bindinput="field" maxlength="220"/>
+      <view wx:if="{{item.raw}}" class="raw" data-name="{{item.name}}" bindtap="highlight">{{item.bbox ? '查看证据 ↗ · ' : ''}}{{item.raw}}</view>
+    </view>
+    <view wx:if="{{relative}}">
+      <view class="label">截图日期</view>
+      <picker mode="date" value="{{form.captureDate}}" bindchange="date"><view class="field">{{form.captureDate || '选择截图日期'}}</view></picker>
+    </view>
+    <view class="actions"><button class="primary" loading="{{busy}}" disabled="{{busy}}" bindtap="save">保存私有记录</button></view>
+    <view wx:if="{{task.status === 'COMPLETED' && task.confirmedFields.product}}" class="actions"><button class="secondary" bindtap="search">搜索商品线索</button></view>
+  </view>
+  <button wx:if="{{task}}" class="plain" bindtap="restart">新建识别</button>
+</view>

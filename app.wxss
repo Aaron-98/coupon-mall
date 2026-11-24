@@ -1,1 +1,37 @@
-page { background: #f6f7f9; color: #222; font-family: sans-serif; }
+
+page { background:#f7f7fb; color:#201a31; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; font-size:28rpx; }
+view,text,input,textarea,button { box-sizing:border-box; }
+.screen { padding:26rpx 32rpx 48rpx; }
+.eyebrow { color:#6340cb; font-size:22rpx; font-weight:700; letter-spacing:2rpx; }
+.page-title { margin:8rpx 0; font-size:60rpx; font-weight:760; line-height:1.15; letter-spacing:-2rpx; }
+.section-title { font-size:34rpx; font-weight:720; }
+.sub,.muted { color:#625c72; font-size:25rpx; line-height:1.55; }
+.muted { font-size:24rpx; }
+.strong { font-weight:700; }
+.card { border:1rpx solid #ebe8f3; background:#fff; border-radius:26rpx; padding:25rpx; margin:18rpx 0; }
+.row { display:flex; align-items:center; gap:16rpx; }
+.between { justify-content:space-between; }
+.wrap { flex-wrap:wrap; }
+.grow { flex:1; min-width:0; }
+.stack { display:flex; flex-direction:column; gap:12rpx; }
+.field,.area { width:100%; border-radius:14rpx; background:#f5f3fa; color:#211936; padding:16rpx 20rpx; font-size:28rpx; }
+.field { height:79rpx; }
+.area { min-height:132rpx; }
+.label { display:block; font-weight:670; margin:16rpx 0 8rpx; }
+.actions { display:flex; align-items:center; gap:14rpx; margin-top:18rpx; }
+.actions button { flex:1; }
+.primary,.secondary,.plain,.dark { width:auto; margin:0; padding:0 22rpx; min-height:78rpx; border-radius:17rpx; font-size:27rpx; font-weight:660; line-height:78rpx; background:#6840d9; color:white; }
+.secondary { background:#efeafa; color:#5933b8; }
+.dark { background:#21172f; color:#fff; }
+.plain { background:transparent; color:#6440c8; min-height:48rpx; line-height:48rpx; }
+button::after { border:0; }
+button[disabled] { opacity:.55; }
+.badge { display:inline-block; border-radius:10rpx; padding:6rpx 12rpx; color:#5833b5; background:#eee8ff; font-size:21rpx; font-weight:660; }
+.caution { color:#82531b; background:#fff2db; }
+.notice { padding:18rpx 22rpx; border-radius:15rpx; color:#564677; background:#efeafa; margin:16rpx 0; font-size:24rpx; line-height:1.55; }
+.error { color:#942848; background:#fcecf1; }
+.empty { text-align:center; padding:45rpx 25rpx; }
+.money { color:#5934c3; font-size:45rpx; font-weight:760; letter-spacing:-1rpx; }
+.spaced { margin-top:26rpx; }
+.rule { margin:12rpx 0; border-top:1rpx solid #eeebf5; }
+.micro { font-size:21rpx; }

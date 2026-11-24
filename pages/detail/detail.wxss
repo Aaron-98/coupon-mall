@@ -1,0 +1,7 @@
+
+.product { background:#eee7ff; border-color:#e2d8fd; }
+.product-title { font-weight:770; font-size:49rpx; line-height:1.15; margin:15rpx 0; }
+.variant { background:#f5f2fc; color:#4a405d; border-radius:12rpx; padding:0 17rpx; font-size:26rpx; margin:0; }
+.chosen { background:#e8ddfd; color:#5531b8; font-weight:700; }
+.breakdown { padding:9rpx 0; }
+.coupon { padding:18rpx 0; border-bottom:1rpx solid #eeebf5; }

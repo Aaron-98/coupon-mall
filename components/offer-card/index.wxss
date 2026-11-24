@@ -1,0 +1,11 @@
+
+.offer { display:flex; align-items:center; gap:16rpx; border:1rpx solid #ebe8f3; border-radius:24rpx; padding:18rpx; background:white; margin:13rpx 0; }
+.mark { flex:none; width:72rpx; height:72rpx; border-radius:18rpx; display:flex; align-items:center; justify-content:center; font-size:39rpx; font-weight:700; background:#eee7ff; color:#633bcc; }
+.daily { background:#e4f6ef; color:#296853; }
+.home { background:#ffefdd; color:#985619; }
+.body { flex:1; min-width:0; }
+.name { font-size:27rpx; font-weight:700; color:#221a32; overflow-wrap:anywhere; }
+.meta,.status { margin-top:4rpx; font-size:21rpx; line-height:1.4; color:#6c637b; }
+.status { color:#85501d; }
+.quote { text-align:right; }
+.amount { font-size:33rpx; font-weight:750; color:#5735ba; white-space:nowrap; }

@@ -1,2 +1,24 @@
-.container { padding: 64rpx 32rpx; }
-.title { display: block; font-size: 48rpx; margin-bottom: 24rpx; }
+
+.landing { padding-top:16rpx; }
+.hero { height:410rpx; padding:30rpx; border-radius:34rpx; position:relative; overflow:hidden; background:linear-gradient(122deg,#4925b8 0%,#7048da 72%,#865ee5 100%); color:white; }
+.hero-copy { position:relative; z-index:2; width:66%; }
+.hero-label { font-size:23rpx; font-weight:720; color:#dcd0ff; letter-spacing:2rpx; }
+.hero-title { font-size:59rpx; font-weight:780; line-height:1.1; margin:12rpx 0 13rpx; letter-spacing:-2rpx; }
+.hero-note { font-size:23rpx; color:#f1eaff; line-height:1.5; }
+.hero-button { display:flex; justify-content:center; align-items:center; gap:15rpx; position:absolute; left:30rpx; bottom:25rpx; z-index:2; background:#bbf4dc; color:#211b34; border-radius:16rpx; margin:0; width:243rpx; font-size:26rpx; font-weight:750; line-height:65rpx; }
+.scan { font-size:26rpx; }
+.orbit { position:absolute; border:1rpx solid #bca7ff; border-radius:50%; width:344rpx; height:344rpx; right:-48rpx; top:22rpx; opacity:.35; }
+.orbit-two { width:275rpx; height:275rpx; top:55rpx; right:-15rpx; }
+.ticket { position:absolute; right:38rpx; top:94rpx; width:158rpx; height:202rpx; transform:rotate(15deg); border-radius:18rpx; background:#baf3dc; box-shadow:12rpx 14rpx 0 #5931b1; }
+.ticket-symbol { position:absolute; left:24rpx; top:22rpx; font-size:79rpx; line-height:1; font-weight:770; color:#402396; }
+.ticket-dot { position:absolute; top:19rpx; right:17rpx; width:13rpx; height:13rpx; border-radius:50%; background:#7853d3; }
+.ticket-lines { position:absolute; left:24rpx; top:109rpx; width:95rpx; height:15rpx; border-top:5rpx solid #5335a6; border-bottom:4rpx solid #8d71ca; }
+.ticket-dash { position:absolute; left:7rpx; right:7rpx; top:151rpx; border-top:3rpx dashed #6f55bc; }
+.lookup { margin:22rpx 0 25rpx; padding:21rpx; background:white; border:1rpx solid #ebe8f3; border-radius:24rpx; }
+.lookup-row { display:flex; gap:12rpx; align-items:center; margin-top:12rpx; }
+.lookup-row .dark { flex:none; width:113rpx; }
+.paste { padding-right:4rpx; }
+.head-row .plain { padding-right:0; }
+.source-line { display:flex; gap:9rpx; align-items:center; margin:6rpx 0 12rpx; color:#635b70; font-size:23rpx; }
+.source-dot { width:12rpx; height:12rpx; border-radius:50%; background:#7955da; }
+.source-dot.off { background:#8b8797; }

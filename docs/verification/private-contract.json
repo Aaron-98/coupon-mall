@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "synthetic": true,
+  "checks": [
+    "capability gating",
+    "approved outbound contract",
+    "price changed and reconfirmation",
+    "immutable replay",
+    "history gaps preserved",
+    "role isolation",
+    "event deduplication and data rejection",
+    "account deletion",
+    "URL restrictions",
+    "authorization expiry",
+    "source switch"
+  ],
+  "realChannelVerified": false,
+  "realDeviceVerified": false
+}

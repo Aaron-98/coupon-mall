@@ -1,0 +1,4 @@
+
+.filters { margin-top:15rpx; }
+.pill { border-radius:11rpx; padding:10rpx 14rpx; background:#f0ebfc; color:#5635aa; font-size:24rpx; line-height:1.5; }
+.pill-button { margin:0; }

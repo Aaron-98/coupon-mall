@@ -1,5 +1,55 @@
 {
-  "pages": ["pages/index/index"],
-  "window": {"navigationBarTitleText": "Coupon Mall"},
-  "sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/index/index",
+    "pages/radar/radar",
+    "pages/favorites/favorites",
+    "pages/profile/profile",
+    "pages/recognize/recognize",
+    "pages/detail/detail",
+    "pages/compare/compare",
+    "pages/admin/admin"
+  ],
+  "window": {
+    "navigationBarTitleText": "Coupon Mall",
+    "navigationBarBackgroundColor": "#f7f7fb",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f7fb"
+  },
+  "tabBar": {
+    "color": "#757283",
+    "selectedColor": "#653dd6",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home-active.png"
+      },
+      {
+        "pagePath": "pages/radar/radar",
+        "text": "雷达",
+        "iconPath": "assets/radar.png",
+        "selectedIconPath": "assets/radar-active.png"
+      },
+      {
+        "pagePath": "pages/favorites/favorites",
+        "text": "收藏",
+        "iconPath": "assets/heart.png",
+        "selectedIconPath": "assets/heart-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/user.png",
+        "selectedIconPath": "assets/user-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "offer-card": "/components/offer-card/index"
+  },
+  "style": "v2"
 }

@@ -1,0 +1,64 @@
+
+<view class="screen">
+  <view wx:if="{{error}}" class="notice error">{{error}}</view>
+  <view wx:if="{{loading}}" class="muted">正在计算报价…</view>
+  <button wx:if="{{!offer && error && !loading}}" class="plain" bindtap="load">刷新报价</button>
+  <block wx:if="{{offer}}">
+    <view class="card product">
+      <view class="row"><text class="badge">{{offer.platform}}</text><text wx:if="{{offer.demo}}" class="badge caution">合成样例</text><text wx:if="{{offer.stateLabel}}" class="badge caution">{{offer.stateLabel}}</text></view>
+      <view class="product-title">{{offer.name}}</view>
+      <view class="sub">{{offer.shop}} · {{offer.skuLabel}}</view>
+    </view>
+    <view class="card">
+      <view class="section-title">购买条件</view>
+      <view class="label">规格</view>
+      <view class="row wrap">
+        <button wx:for="{{offer.variants}}" wx:key="id" data-id="{{item.id}}" class="variant {{item.id === offer.id ? 'chosen' : ''}}" bindtap="variant">{{item.label}}</button>
+      </view>
+      <view class="label">数量</view>
+      <view class="row"><input class="field grow" type="number" maxlength="2" value="{{quantity}}" bindinput="quantity" bindconfirm="load"/><button class="secondary" bindtap="load">更新价格</button></view>
+      <view class="label">配送省市</view>
+      <view class="row"><picker class="grow" mode="region" level="city" value="{{regionOptions}}" bindchange="region"><view class="field">{{region || '默认配送地区'}} ›</view></picker><button wx:if="{{region}}" class="plain" bindtap="clearRegion">清除</button></view>
+      <view class="label">购买资格</view>
+      <picker mode="selector" range="{{eligibilityOptions}}" value="{{eligibilityIndex}}" bindchange="eligibility"><view class="field">{{eligibilityOptions[eligibilityIndex]}} ›</view></picker>
+    </view>
+    <view class="card">
+      <view class="row between"><text class="section-title">{{offer.amountLabel}}</text><text class="money">{{dirty ? '待更新' : offer.amount}}</text></view>
+      <view wx:if="{{offer.missingLabel}}" class="notice">{{offer.missingLabel}}</view>
+      <view wx:for="{{breakdown}}" wx:key="label" class="row between breakdown"><text>{{item.label}}</text><text>{{dirty ? '待更新' : item.value}}</text></view>
+      <view class="rule"></view>
+      <view class="muted">来源 {{offer.sourceName}} · {{offer.timeLabel}} 更新（北京时间）</view>
+      <view class="muted">报价有效至 {{expires}} · 规则版本 {{offer.plan.ruleVersion}}</view>
+    </view>
+    <view class="card">
+      <view class="section-title">券与满减</view>
+      <view wx:if="{{!coupons.length}}" class="muted">该报价暂无可展示券信息。</view>
+      <view wx:for="{{coupons}}" wx:key="id" class="coupon">
+        <view class="row between"><text class="strong">{{item.label}}</text><text class="badge">{{item.selected ? '已计入估算' : item.status}}</text></view>
+        <view class="muted">{{item.requirement}}</view>
+        <view class="muted">{{item.expiryLabel}}</view>
+      </view>
+      <view wx:if="{{offer.plan.couponNote}}" class="muted">{{offer.plan.couponNote}}</view>
+    </view>
+    <view class="actions"><button class="primary" disabled="{{dirty || loading}}" bindtap="compare">同规格比价</button><button class="secondary" bindtap="save">收藏</button></view>
+    <button class="plain" bindtap="history">查看已记录价格</button>
+    <view class="card stack">
+      <view class="section-title">站内降价提醒</view>
+      <view class="muted">打开「我的」时检查，每件商品每天最多一次。可随时退订。</view>
+      <view class="row"><input class="field grow" type="digit" value="{{threshold}}" bindinput="threshold" placeholder="目标价格（元）"/><button class="secondary" bindtap="watch">主动开启</button></view>
+    </view>
+    <view wx:if="{{historyId === offer.id}}" class="card stack">
+      <view class="section-title">{{offer.demo ? '样例价格记录' : '价格记录'}}</view>
+      <view class="muted">{{historyContext}}</view>
+      <view wx:if="{{!history.length}}" class="muted">尚无已记录价格</view>
+      <view wx:for="{{history}}" wx:key="date" class="row between"><text>{{item.date}}</text><text>{{item.amount}}</text></view>
+    </view>
+    <button wx:if="{{offer.outboundAvailable}}" class="dark spaced" loading="{{outboundBusy}}" disabled="{{dirty || loading || outboundBusy}}" bindtap="outbound">前往平台</button>
+    <view wx:else class="muted spaced">当前报价暂无可用的已批准跳转入口。</view>
+    <button class="plain spaced" bindtap="toggleFeedback">反馈价格或规格问题</button>
+    <view wx:if="{{showFeedback}}" class="card stack">
+      <textarea class="area" maxlength="500" placeholder="说明价格、运费或规格问题" value="{{feedback}}" bindinput="feedback"/>
+      <button class="primary" bindtap="sendFeedback">提交反馈</button>
+    </view>
+  </block>
+</view>

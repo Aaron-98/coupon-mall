@@ -1,0 +1,22 @@
+
+<view class="screen">
+  <view class="page-title">同规格比价</view>
+  <view wx:if="{{loading}}" class="card muted">正在核对规格和总价…</view>
+  <view wx:elif="{{error}}" class="notice error">{{error}}<button class="plain" bindtap="load">重试</button></view>
+  <block wx:else>
+    <view class="card">
+      <view class="section-title">{{title}}</view>
+      <view class="sub">{{skuLabel}} · {{quantity}} 件 · {{region || '默认配送地区'}} · {{eligibilityLabel}}</view>
+      <view class="notice">按含运费预估总价从低到高排列。同价优先显示更新时间更近的报价。</view>
+    </view>
+    <view wx:if="{{!sufficient}}" class="notice">暂无足够可比结果。</view>
+    <offer-card wx:for="{{comparable}}" wx:key="id" offer="{{item}}" bind:select="open"/>
+    <view wx:if="{{referenceOnly.length}}" class="section-title spaced">条件待确认</view>
+    <offer-card wx:for="{{referenceOnly}}" wx:key="id" offer="{{item}}" bind:select="open"/>
+    <view wx:if="{{excluded.length}}" class="section-title spaced">未列入同款排序</view>
+    <view wx:for="{{excluded}}" wx:key="id" class="card">
+      <view class="strong">{{item.name}} · {{item.skuLabel}}</view>
+      <view class="muted">{{item.shop}} · {{item.reason}}</view>
+    </view>
+  </block>
+</view>

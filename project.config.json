@@ -1,7 +1,41 @@
 {
-  "appid": "touristappid",
+  "appid": "wxa9b835af44f6ad5d",
   "projectname": "coupon-mall",
   "compileType": "miniprogram",
   "miniprogramRoot": "./",
-  "setting": {"es6": true}
+  "setting": {
+    "es6": true,
+    "postcss": false,
+    "compileWorklet": false,
+    "minified": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "enhance": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "simulatorPluginLibVersion": {},
+  "watchOptions": {
+    "ignore": ["server/**", "docs/**", ".git/**"]
+  },
+  "packOptions": {
+    "ignore": [
+      {"type": "folder", "value": "server"},
+      {"type": "folder", "value": "docs"},
+      {"type": "file", "value": "README.md"}
+    ],
+    "include": []
+  },
+  "editorSetting": {}
 }
